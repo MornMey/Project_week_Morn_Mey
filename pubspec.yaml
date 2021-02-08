@@ -51,6 +51,7 @@ flutter:
   assets:
    - assets/images.png
    - assets/mey.jpg
+# Math
 # Images Lesson1
    - lib/math/Assets/Imageslesson1/image1.jpg
    - lib/math/Assets/Imageslesson1/image2.jpg
@@ -99,6 +100,92 @@ flutter:
    - lib/math/Assets/Imageslesson11/image2.jpg
    - lib/math/Assets/Imageslesson11/image3.jpg 
    - lib/math/Assets/Imageslesson11/image4.jpg
+# Physics
+# Images Lesson1
+   - lib/physics/Assets/Imageslesson1/image1.jpg
+   - lib/physics/Assets/Imageslesson1/image2.jpg
+# Images Lesson2
+   - lib/physics/Assets/Imageslesson2/image1.jpg
+   - lib/physics/Assets/Imageslesson2/image2.jpg
+# Images Lesson3
+   - lib/physics/Assets/Imageslesson3/image1.jpg
+# Images Lesson4
+   - lib/physics/Assets/Imageslesson4/image1.jpg
+   - lib/physics/Assets/Imageslesson4/image2.jpg
+# Images Lesson5
+   - lib/physics/Assets/Imageslesson5/image1.jpg
+   - lib/physics/Assets/Imageslesson5/image2.jpg
+# Images Lesson6
+   - lib/physics/Assets/Imageslesson6/image1.jpg
+   - lib/physics/Assets/Imageslesson6/image2.jpg
+# Images Lesson7
+   - lib/physics/Assets/Imageslesson7/image1.jpg
+   - lib/physics/Assets/Imageslesson7/image2.jpg
+# Images Lesson8
+   - lib/physics/Assets/Imageslesson8/image1.jpg
+   - lib/physics/Assets/Imageslesson8/image2.jpg
+   - lib/physics/Assets/Imageslesson8/image3.jpg
+# Images Lesson9
+   - lib/physics/Assets/Imageslesson9/image1.jpg
+   - lib/physics/Assets/Imageslesson9/image2.jpg
+   - lib/physics/Assets/Imageslesson9/image3.jpg
+   - lib/physics/Assets/Imageslesson9/image4.jpg
+   - lib/physics/Assets/Imageslesson9/image5.jpg
+   - lib/physics/Assets/Imageslesson9/image6.jpg
+   - lib/physics/Assets/Imageslesson9/image7.jpg
+# Chemistry
+# Images lesson
+   - lib/chemistry/Assets/Imageslesson1/image1.jpg
+   - lib/chemistry/Assets/Imageslesson1/image2.jpg
+   - lib/chemistry/Assets/Imageslesson1/image3.jpg
+   - lib/chemistry/Assets/Imageslesson1/image4.jpg
+   - lib/chemistry/Assets/Imageslesson1/image5.jpg
+   - lib/chemistry/Assets/Imageslesson1/image6.jpg
+   - lib/chemistry/Assets/Imageslesson1/image7.jpg
+   - lib/chemistry/Assets/Imageslesson1/image8.jpg
+   - lib/chemistry/Assets/Imageslesson1/image9.jpg
+   - lib/chemistry/Assets/Imageslesson1/image10.jpg
+   - lib/chemistry/Assets/Imageslesson1/image11.jpg
+   - lib/chemistry/Assets/Imageslesson1/image12.jpg
+   - lib/chemistry/Assets/Imageslesson1/image13.jpg
+   - lib/chemistry/Assets/Imageslesson1/image14.jpg
+   - lib/chemistry/Assets/Imageslesson1/image15.jpg
+   - lib/chemistry/Assets/Imageslesson1/image16.jpg
+   - lib/chemistry/Assets/Imageslesson1/image17.jpg
+   - lib/chemistry/Assets/Imageslesson1/image18.jpg
+   - lib/chemistry/Assets/Imageslesson1/image19.jpg
+   - lib/chemistry/Assets/Imageslesson1/image20.jpg
+   - lib/chemistry/Assets/Imageslesson1/image21.jpg
+   - lib/chemistry/Assets/Imageslesson1/image22.jpg
+   - lib/chemistry/Assets/Imageslesson1/image23.jpg
+   - lib/chemistry/Assets/Imageslesson1/image24.jpg
+   - lib/chemistry/Assets/Imageslesson1/image25.jpg
+   - lib/chemistry/Assets/Imageslesson1/image26.jpg
+   - lib/chemistry/Assets/Imageslesson1/image27.jpg
+# Biology
+# Images lesson
+   - lib/biology/Assets/Imageslesson1/image1.jpg
+   - lib/biology/Assets/Imageslesson1/image2.jpg
+   - lib/biology/Assets/Imageslesson1/image3.jpg
+   - lib/biology/Assets/Imageslesson1/image4.jpg
+   - lib/biology/Assets/Imageslesson1/image5.jpg
+   - lib/biology/Assets/Imageslesson1/image6.jpg
+   - lib/biology/Assets/Imageslesson1/image7.jpg
+   - lib/biology/Assets/Imageslesson1/image8.jpg
+   - lib/biology/Assets/Imageslesson1/image9.jpg
+   - lib/biology/Assets/Imageslesson1/image10.jpg
+   - lib/biology/Assets/Imageslesson1/image11.jpg
+   - lib/biology/Assets/Imageslesson1/image12.jpg
+   - lib/biology/Assets/Imageslesson1/image13.jpg
+   - lib/biology/Assets/Imageslesson1/image14.jpg
+   - lib/biology/Assets/Imageslesson1/image15.jpg
+   - lib/biology/Assets/Imageslesson1/image16.jpg
+   - lib/biology/Assets/Imageslesson1/image17.jpg
+   - lib/biology/Assets/Imageslesson1/image18.jpg
+   - lib/biology/Assets/Imageslesson1/image19.jpg
+   - lib/biology/Assets/Imageslesson1/image20.jpg
+
+   
 
 
 

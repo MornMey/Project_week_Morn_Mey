@@ -6,56 +6,69 @@ class biology extends StatelessWidget {
       appBar: AppBar(
         title: Text("រូបមន្តជីវវិទ្យា"),
       ),
-      body: ListView(
-        padding: const EdgeInsets.symmetric(
-          vertical: 20.0,
-        ),
+      body:ListView(
+        scrollDirection: Axis.vertical,
         children: <Widget>[
-          InkWell(
-            splashColor: Colors.grey,
-            child: ListTile(
-              title: Text('អាសុីតអាមីនេ'),
-              leading: Image(
-                image: AssetImage('assets/images.png'),
-              ),
-              trailing: Icon(Icons.navigate_next),
-              onTap: () {
-                // Navigator.push(
-                //     context, MaterialPageRoute(builder: (context) => math()));
-              },
-            ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image1.jpg'),
+          fit: BoxFit.cover,
           ),
-          Divider(),
-          InkWell(
-            splashColor: Colors.grey,
-            child: ListTile(
-              title: Text('ADN ជាទម្រព័ត៌មានសេនេទិច'),
-              leading: Image(
-                image: AssetImage('assets/images.png'),
-              ),
-              trailing: Icon(Icons.navigate_next),
-              onTap: () {
-                // Navigator.push(context,
-                //     MaterialPageRoute(builder: (context) => physics()));
-              },
-            ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image2.jpg'),
+          fit: BoxFit.cover,
           ),
-          Divider(),
-          InkWell(
-            splashColor: Colors.grey,
-            child: ListTile(
-              title: Text('ការសំដែងចេញនៃសៃន'),
-              leading: Image(
-                image: AssetImage('assets/images.png'),
-              ),
-              trailing: Icon(Icons.navigate_next),
-              onTap: () {
-                // Navigator.push(context,
-                //     MaterialPageRoute(builder: (context) => chemistry()));
-              },
-            ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image3.jpg'),
+          fit: BoxFit.cover,
           ),
-          Divider(),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image4.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image5.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image6.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image7.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image8.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image9.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image10.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image11.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image12.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image13.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image14.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image15.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image16.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image17.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image18.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image19.jpg'),
+          fit: BoxFit.cover,
+          ),
+          Image(image: AssetImage('lib/biology/Assets/Imageslesson1/image20.jpg'),
+          fit: BoxFit.cover,
+          ),
         ],
       ),
     );

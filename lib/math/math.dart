@@ -27,9 +27,14 @@ class math extends StatelessWidget {
             splashColor: Colors.grey,
             child: ListTile(
               title: Text('ត្រីកោណមាត្រ'),
-              leading: Image(
-                image: AssetImage('assets/images.png'),
-              ),
+              leading: CircleAvatar(
+                  radius: 35,
+                  backgroundColor: Color(0xFF329664),
+                  child: Center(
+                      child: Text(
+                    "Sin",
+                    style: TextStyle(color: Colors.white),
+                  ))),
               trailing: Icon(Icons.navigate_next),
               onTap: () {
                 Navigator.push(context,
@@ -42,9 +47,14 @@ class math extends StatelessWidget {
             splashColor: Colors.grey,
             child: ListTile(
               title: Text('ចំនួនកុំផ្លិច'),
-              leading: Image(
-                image: AssetImage('assets/images.png'),
-              ),
+              leading: CircleAvatar(
+                  radius: 35,
+                  backgroundColor: Color(0xFF329664),
+                  child: Center(
+                      child: Text(
+                    "C",
+                    style: TextStyle(fontSize: 20, color: Colors.white),
+                  ))),
               trailing: Icon(Icons.navigate_next),
               onTap: () {
                 Navigator.push(context,
@@ -57,9 +67,14 @@ class math extends StatelessWidget {
             splashColor: Colors.grey,
             child: ListTile(
               title: Text('លីមីតនៃអនុគមន៍'),
-              leading: Image(
-                image: AssetImage('assets/images.png'),
-              ),
+              leading: CircleAvatar(
+                  radius: 35,
+                  backgroundColor: Color(0xFF329664),
+                  child: Center(
+                      child: Text(
+                    "Lim",
+                    style: TextStyle(color: Colors.white),
+                  ))),
               trailing: Icon(Icons.navigate_next),
               onTap: () {
                 Navigator.push(context,
@@ -72,9 +87,14 @@ class math extends StatelessWidget {
             splashColor: Colors.grey,
             child: ListTile(
               title: Text('ភាពជាប់នៃអនុគមន៍'),
-              leading: Image(
-                image: AssetImage('assets/images.png'),
-              ),
+              leading: CircleAvatar(
+                  radius: 35,
+                  backgroundColor: Color(0xFF329664),
+                  child: Center(
+                      child: Icon(
+                    Icons.timeline,
+                    color: Colors.white,
+                  ))),
               trailing: Icon(Icons.navigate_next),
               onTap: () {
                 Navigator.push(context,
@@ -87,9 +107,14 @@ class math extends StatelessWidget {
             splashColor: Colors.grey,
             child: ListTile(
               title: Text('ដេរីវេនៃអនុគមន៍'),
-              leading: Image(
-                image: AssetImage('assets/images.png'),
-              ),
+              leading: CircleAvatar(
+                  radius: 35,
+                  backgroundColor: Color(0xFF329664),
+                  child: Center(
+                      child: Text(
+                    "Y",
+                    style: TextStyle(fontSize: 20, color: Colors.white),
+                  ))),
               trailing: Icon(Icons.navigate_next),
               onTap: () {
                 Navigator.push(context,
@@ -102,9 +127,13 @@ class math extends StatelessWidget {
             splashColor: Colors.grey,
             child: ListTile(
               title: Text('អាំងតេក្រាល'),
-              leading: Image(
-                image: AssetImage('assets/images.png'),
-              ),
+              leading: CircleAvatar(
+                  radius: 35,
+                  backgroundColor: Color(0xFF329664),
+                  child: Center(
+                      child: Text("f",
+                          style:
+                              TextStyle(fontSize: 25, color: Colors.white)))),
               trailing: Icon(Icons.navigate_next),
               onTap: () {
                 Navigator.push(context,
@@ -117,9 +146,14 @@ class math extends StatelessWidget {
             splashColor: Colors.grey,
             child: ListTile(
               title: Text('សមីការឌីផេរ៉ងស្យែល'),
-              leading: Image(
-                image: AssetImage('assets/images.png'),
-              ),
+              leading: CircleAvatar(
+                  radius: 35,
+                  backgroundColor: Color(0xFF329664),
+                  child: Center(
+                      child: Text(
+                    "Y'",
+                    style: TextStyle(fontSize: 20, color: Colors.white),
+                  ))),
               trailing: Icon(Icons.navigate_next),
               onTap: () {
                 Navigator.push(context,
@@ -132,9 +166,14 @@ class math extends StatelessWidget {
             splashColor: Colors.grey,
             child: ListTile(
               title: Text('ចម្លាស់និងវិភាគបន្សំ'),
-              leading: Image(
-                image: AssetImage('assets/images.png'),
-              ),
+              leading: CircleAvatar(
+                  radius: 35,
+                  backgroundColor: Color(0xFF329664),
+                  child: Center(
+                      child: Text(
+                    "n!",
+                    style: TextStyle(fontSize: 20, color: Colors.white),
+                  ))),
               trailing: Icon(Icons.navigate_next),
               onTap: () {
                 Navigator.push(context,
@@ -147,9 +186,14 @@ class math extends StatelessWidget {
             splashColor: Colors.grey,
             child: ListTile(
               title: Text('ប្រូបាប'),
-              leading: Image(
-                image: AssetImage('assets/images.png'),
-              ),
+              leading: CircleAvatar(
+                  radius: 35,
+                  backgroundColor: Color(0xFF329664),
+                  child: Center(
+                      child: Text(
+                    "P",
+                    style: TextStyle(fontSize: 20, color: Colors.white),
+                  ))),
               trailing: Icon(Icons.navigate_next),
               onTap: () {
                 Navigator.push(context,
@@ -162,9 +206,14 @@ class math extends StatelessWidget {
             splashColor: Colors.grey,
             child: ListTile(
               title: Text('ធរណីមាត្រក្នុងលំហ'),
-              leading: Image(
-                image: AssetImage('assets/images.png'),
-              ),
+              leading: CircleAvatar(
+                  radius: 35,
+                  backgroundColor: Color(0xFF329664),
+                  child: Center(
+                      child: Icon(
+                    Icons.settings,
+                    color: Colors.white,
+                  ))),
               trailing: Icon(Icons.navigate_next),
               onTap: () {
                 Navigator.push(context,
@@ -177,9 +226,14 @@ class math extends StatelessWidget {
             splashColor: Colors.grey,
             child: ListTile(
               title: Text('កោនិក'),
-              leading: Image(
-                image: AssetImage('assets/images.png'),
-              ),
+              leading: CircleAvatar(
+                  radius: 35,
+                  backgroundColor: Color(0xFF329664),
+                  child: Center(
+                      child: Icon(
+                    Icons.ac_unit,
+                    color: Colors.white,
+                  ))),
               trailing: Icon(Icons.navigate_next),
               onTap: () {
                 Navigator.push(context,

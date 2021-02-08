@@ -50,14 +50,7 @@ class drawer extends StatelessWidget {
                         IconButton(
                             icon: Icon(Icons.navigate_next),
                             color: Colors.white,
-                            onPressed: () {
-                              // Navigator.push(
-                              //   context,
-                              //   MaterialPageRoute(
-                              //     builder: (context) => profile()
-                              //   )
-                              // );
-                            }),
+                            onPressed: () {}),
                       ],
                     ),
                   )
@@ -65,17 +58,10 @@ class drawer extends StatelessWidget {
               ),
             ),
           ),
-          Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Text("About Me",
-                style: TextStyle(fontSize: 20),
-                ),
-              ],
-            ),
-          ),
+          ListTile(
+            leading: Icon(Icons.settings),
+            title: Text("Settings",style: TextStyle(color: Colors.black),),
+          )
         ],
       ),
     );

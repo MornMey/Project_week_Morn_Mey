@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'វិទ្យាល័យសម្តេចតេជោហ៊ុនសែនសង្កើប'),
+      home: MyHomePage(),
     );
   }
 }
@@ -27,7 +27,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  bool dartMood = false;
+  // bool dartMood = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,9 +35,9 @@ class _MyHomePageState extends State<MyHomePage> {
         centerTitle: true,
         title: Text("វិទ្យាល័យសម្តេចតេជោហ៊ុនសែនសង្កើប"),
       ),
-      drawer: drawer(),
+      drawer: drawer(), 
       body: body(),
-      backgroundColor: dartMood ? Colors.black : Colors.white,
+      // backgroundColor: dartMood ? Colors.black : Colors.white,
       // body: Container(
       //   child: Row(
       //     children: [

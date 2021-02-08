@@ -4,7 +4,6 @@ import 'package:flutter_math/chemistry/chemistry.dart';
 import 'package:flutter_math/math/math.dart';
 import 'package:flutter_math/physics/physics.dart';
 
-
 class body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -27,9 +26,12 @@ class body extends StatelessWidget {
           splashColor: Colors.grey,
           child: ListTile(
             title: Text('គណិតវិទ្យា'),
-            leading: Image(
-              image: AssetImage('assets/images.png'),
-            ),
+            leading: CircleAvatar(
+                radius: 35,
+                backgroundColor: Color(0xFF00CED1),
+                child: Center(
+                    child: Icon(Icons.functions,
+                    color: Colors.white,))),
             trailing: Icon(Icons.navigate_next),
             onTap: () {
               Navigator.push(
@@ -42,9 +44,14 @@ class body extends StatelessWidget {
           splashColor: Colors.grey,
           child: ListTile(
             title: Text('រូបវិទ្យា'),
-            leading: Image(
-              image: AssetImage('assets/images.png'),
-            ),
+            leading: CircleAvatar(
+                radius: 35,
+                backgroundColor: Color(0xFF00CED1),
+                child: Center(
+                    child: Icon(Icons.filter_vintage_outlined,
+                    color: Colors.white,
+                    ),
+                    )),
             trailing: Icon(Icons.navigate_next),
             onTap: () {
               Navigator.push(
@@ -57,13 +64,18 @@ class body extends StatelessWidget {
           splashColor: Colors.grey,
           child: ListTile(
             title: Text('គីមីវិទ្យា'),
-            leading: Image(
-              image: AssetImage('assets/images.png'),
-            ),
+            leading: CircleAvatar(
+                radius: 35,
+                backgroundColor: Color(0xFF00CED1),
+                child: Center(
+                    child: Text(
+                  "C",
+                  style: TextStyle(fontSize: 20,color: Colors.white),
+                ))),
             trailing: Icon(Icons.navigate_next),
             onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => chemistry()));
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => chemistry()));
             },
           ),
         ),
@@ -72,9 +84,14 @@ class body extends StatelessWidget {
           splashColor: Colors.grey,
           child: ListTile(
             title: Text('ជីវវិទ្យា'),
-            leading: Image(
-              image: AssetImage('assets/images.png'),
-            ),
+            leading: CircleAvatar(
+                radius: 35,
+                backgroundColor: Color(0xFF00CED1),
+                child: Center(
+                    child: Text(
+                  "B",
+                  style: TextStyle(fontSize: 20,color: Colors.white),
+                ))),
             trailing: Icon(Icons.navigate_next),
             onTap: () {
               Navigator.push(
